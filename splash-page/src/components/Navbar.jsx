@@ -4,6 +4,7 @@ import Docs from '../pages/Docs'
 import Home from '../pages/Home'
 
 //bg-base-100
+
  export default function Navbar() {
   return (
     <>
@@ -13,9 +14,9 @@ import Home from '../pages/Home'
       </div>
       <div className="flex-none">
         <ul className="text-navFontColor text-2xl menu menu-horizontal px-1">
-           <li><Link to = '/'>Home</Link></li> 
-          <li><Link to = '/docs'>Docs</Link></li>
-          <li><Link to = '/contact'>Contact</Link></li>
+           <li><Link to = '/'><button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Home</button></Link></li> 
+          <li><Link to = '/docs'> <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Docs</button></Link></li>
+          <li><Link to = '/contact'><button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Conctacts</button></Link></li>
         </ul>
       </div>
     </div>

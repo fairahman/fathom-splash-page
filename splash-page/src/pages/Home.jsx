@@ -13,10 +13,10 @@ import Contact from './Contact'
     <>
     <Navbar/>
     <Hero/>
-    <br/>
+
     <Demo/>
     <Team/>
-    {/* <Footer/> */}
+    <Footer/>
   </>
   )
 }

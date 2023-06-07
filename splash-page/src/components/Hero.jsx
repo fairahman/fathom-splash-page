@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="hero min-h-screen bg-base-200">
+    <div className="text-white bg-heroColor hero min-h-screen bg-base-200"> 
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img src="https://img.freepik.com/free-photo/digital-painting-mountain-with-colorful-tree-foreground_1340-25699.jpg?w=996&t=st=1686027793~exp=1686028393~hmac=94cdf420d7611045bb9117b88e95242cd6e8596b809a6c0a2588d16e4940a418" className="max-w-sm rounded-lg shadow-2xl" />
         <div>

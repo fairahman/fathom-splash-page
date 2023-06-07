@@ -10,8 +10,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        customNavColor: '#385c70',
-        navFontColor: '#ebcc34'
+        customNavColor: '#120b0b',
+        navFontColor: '#ebcc34',
+        heroColor: '#1f3357',
+        demoColor: '#161c4d',
+        //
       }
     },
   },
