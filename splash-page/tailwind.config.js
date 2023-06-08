@@ -10,14 +10,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        customNavColor: '#120b0b',
-        navFontColor: '#ebcc34',
-        heroColor: '#1f3357',
-        demoColor: '#161c4d',
+        customNavColor: '#2a58b5',
+        navFontColor: '#2a58b5',
+        heroColor: '#2a58b5',
+        demoColor: '#2a58b5',
+        teamColor: '#2a58b5'
         //
       }
     },
   },
+  
   plugins: [require("daisyui"), require('flowbite/plugin')],
 }
 

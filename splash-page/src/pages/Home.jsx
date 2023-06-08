@@ -13,9 +13,9 @@ import Contact from './Contact'
     <>
     <Navbar/>
     <Hero/>
-
     <Demo/>
     <Team/>
+    
     <Footer/>
   </>
   )

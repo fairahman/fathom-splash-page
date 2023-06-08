@@ -1,3 +1,4 @@
+import logo from '../assets/Fathom2white.png'
 import { Route, Routes, Link } from 'react-router-dom'
 import Contact from '../pages/Contact'
 import Docs from '../pages/Docs'
@@ -8,15 +9,19 @@ import Home from '../pages/Home'
  export default function Navbar() {
   return (
     <>
-      <div id='navbar' className=" bg-customNavColor  navbar ">
+      <div id='navbar' className="  navbar bg-neutral-focus">
       <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-xl"></a>
+       <a className="btn btn-ghost normal-case text-xl" > 
+       {/* <button className='text-white text-4xl'>Fathom</button>  */}
+       <Link to = '/'> <img className='object-scale-down h-10 w-70' src = {logo}/></Link>
+       {/* <img className='object-scale-down h-10 w-70' src = {logo}></img> */}
+       </a> 
       </div>
       <div className="flex-none">
         <ul className="text-navFontColor text-2xl menu menu-horizontal px-1">
-           <li><Link to = '/'><button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Home</button></Link></li> 
-          <li><Link to = '/docs'> <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Docs</button></Link></li>
-          <li><Link to = '/contact'><button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Conctacts</button></Link></li>
+           <li><Link to = '/'><button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-md">Home</button></Link></li> 
+          <li><Link to = '/docs'> <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-md">Docs</button></Link></li>
+          <li><Link to = '/contact'><button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-md">Conctacts</button></Link></li>
         </ul>
       </div>
     </div>
