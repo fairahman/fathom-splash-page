@@ -6,8 +6,8 @@ export default function Demo() {
   <div className="hero-content flex-col lg:flex-row">
     <img src={gif} className="max-w-4xl rounded-lg shadow-2xl" />
     <div>
-      <h1 className="text-5xl font-bold">Stats you need</h1>
-      <p className="py-6 text-2xl" >With constant fetches and server-side rendering, Fathom gives you a wealth of metrics at unbelievable speed! </p>
+      <h1 className="text-5xl font-bold">Compare Stats</h1>
+      <p className="py-6 text-xl" > Take snapshots of your cluster metrics and compare the current state of your cluster to any previous saved snapshot!  </p>
       
     </div>
   </div>

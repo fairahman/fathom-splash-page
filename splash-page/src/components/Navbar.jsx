@@ -9,7 +9,7 @@ import Home from '../pages/Home'
  export default function Navbar() {
   return (
     <>
-      <div id='navbar' className="  navbar bg-neutral-focus">
+      <div id='navbar' className="  navbar bg-violet-950">
       <div className="flex-1">
        <a className="btn btn-ghost normal-case text-xl" > 
        {/* <button className='text-white text-4xl'>Fathom</button>  */}
